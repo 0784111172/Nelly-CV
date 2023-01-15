@@ -1,0 +1,74 @@
+body {
+    margin: 30px;
+    width: 100%;
+}
+
+#header {
+    min-height: 100vh;
+    display: flex;
+    max-width: 100vw;
+    /* background-color:antiquewhite; */
+}
+/* above tested*/
+#header .left-column {
+    width: 100%;
+    height: 100%;
+}
+/* above tested*/
+#header .left-column img {
+    height: 200px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+
+#header .left-column .titles {
+    height: 50%;
+}
+
+#level {
+    color: #5193d4;
+}
+#header .left-column .titles h1 {
+    font-size: medium;
+    color: #5193d4;
+}
+
+#header .left-column .titles h2 {
+    font-size: medium;
+    color: #5193d4;
+}
+#header .left-column .titles ul {
+    font-size: medium;
+}
+#header .left-column .titles ol {
+    font-size: medium;
+}
+
+#header #right{
+    width: 100%;
+        column-gap: 10px;
+        height: 100%;
+    background-color: green;
+}
+
+#header #right .contacts {
+    /* display: flex; */
+    align-items: center;
+    background-color: blue;
+}
+
+#header #right .contact .singlecontact img {
+    height: 12px;
+    padding-right: 10px;
+    background-color: red;
+}
+
+#header #right .contact .singlecontact p {
+    font-size: smaller;
+}
+#header #right .contact .singlecontact ul {
+    font-size: smaller;
+}
+#header #right .contact .singlecontact  {
+    font-size: smaller;
+}
